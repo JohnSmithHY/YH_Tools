@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "YH_Tools"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "封装工具类库"
   s.description  = <<-DESC
   目前仅适用于测试阶段，切记不可fork，测试测试测试
@@ -13,4 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/JohnSmithHY/YH_Tools.git", :tag => "#{s.version}" }
   s.source_files  = "YH_Tools/YH_Tools/YH_Tools/**/*.{h,m}"
   s.frameworks = "UIKit"
+  # 依赖库
+  s.dependency 'ReactiveObjC'
+  s.dependency 'Masonry'
 end
