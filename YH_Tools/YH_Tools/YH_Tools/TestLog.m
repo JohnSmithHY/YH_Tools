@@ -12,4 +12,7 @@
 - (void)testLog {
     NSLog(@"仅仅只是一个");
 }
+- (void)testTwoLogs {
+    NSLog(@"只是属于二次打印而已");
+}
 @end
