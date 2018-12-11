@@ -13,6 +13,6 @@
     NSLog(@"仅仅只是一个");
 }
 - (void)testTwoLogs {
-    NSLog(@"只是属于二次打印而已");
+    NSLog(@"好嗨哦，感觉人生已经到达了高潮");
 }
 @end
